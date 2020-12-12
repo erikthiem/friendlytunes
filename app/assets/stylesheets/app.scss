@@ -1,0 +1,23 @@
+// Place all the styles related to the App controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+#page-title {
+  text-align: center;
+}
+
+#container {
+  display: flex;
+  justify-content: space-between;
+  background-color: lightblue;
+}
+
+#container > div {
+  width: 50%;
+  height: 500px;
+  border: 2px solid red;
+
+  h2 {
+    text-align: center;
+  }
+}
